@@ -7,7 +7,7 @@ var flickr_client_1 = require("./flickr.client");
 var isDev = process.env.NODE_ENV === 'development';
 console.log("**** " + process.env.NODE_ENV + " mode ****");
 var app = express();
-var PORT = process.env.APP_PORT || 8080;
+var PORT = process.env.APP_PORT || 8090;
 var IP = process.env.APP_IP || 'localhost';
 var STATIC_BUILD_DIRECTORY = isDev ? path.join('../build') : 'build';
 app.use(bodyParser.json());
