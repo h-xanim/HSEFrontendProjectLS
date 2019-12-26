@@ -8,7 +8,7 @@ console.log(`**** ${process.env.NODE_ENV} mode ****`);
 
 const app = express();
 
-const PORT = process.env.APP_PORT || 8080;
+const PORT = process.env.APP_PORT || 8090;
 const IP = process.env.APP_IP || 'localhost';
 const STATIC_BUILD_DIRECTORY = isDev ? path.join('../build') : 'build';
 
