@@ -6,6 +6,6 @@
 На основной странице информация о новостях в ресторане и ссылка на основную страницу, а также социальные сети ресторана. На второй странице - вкладки с разбором меню ресторана. 
 Фото для меню загружаются с профиля на сайте https://www.flickr.com, созданного собственно для данной работы. FLICKR_USER_ID и FLICKR_API_KEY получены с помощью The App Garden. Для правильной работы с данным сервисом, изучена документация и используются коды из https://www.flickr.com/services/feeds/ .
 
-Сайт запускается как приложение "start": "react-scripts start" на порте http://localhost:3000/, страница меню "start:dev": "cross-env NODE_ENV=development node index.js" на порту http://localhost:8080/ .
+Сайт запускается как приложение "start": "react-scripts start" на порте http://localhost:3000/, страница меню "start:dev": "cross-env NODE_ENV=development node index.js" на порту http://localhost:8090/ .
  
 
